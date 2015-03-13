@@ -1,0 +1,79 @@
+//Image name arrays.
+//Two strings of drawings and text source images.
+//Current number of images total: 256
+
+String[] drawList = {
+  "obf_1.png",  "obf_1b.png", "obf_2.png", "obf_3.png",
+  "obf_3b.png", "obf_4b.png", "obf_5.png", "obf_5b.png",
+  "obf_6.png", "obf_6b.png", "obf_7.png", "obf_7b.png",
+  "obf_08.png", "obf_08.png", "obf_09.png", "obf_09b.png",
+  "obf_10.png", "obf_10b.png", "obf_11b.png", "lines_b1.png",
+  "lines_b1r.png", "lines_b2_1.png", "lines_b2_2.png", "lines_b2_3.png",
+  "lines_b2_4.png", "lines_b3_1.png", "lines_b3_2.png", "lines_b3_3.png",
+  "lines_b3_4.png", "lines_t1_1.png", "lines_t1_4.png", "note_01.png",
+  "note_02.png", "note_p1b.png", "note_p1b_1.png", "note_p1f.png",
+  "note_p1f.png", "note_p2b.png", "note_p2f.png", "note_t1_2.png",
+  "note_t2_3.png", "note_t2_4.png", "note_t3_1.png", "note_t3_2.png",
+  "note_t3_3.png", "note_t3_4.png", "note_t4_1.png", "note_t4_2.png",
+  "note_t4_3.png", "note_t4_4.png", "note_t5b.png", "note_t5b_1.png",
+  "note_t5b_2.png", "note_t5b_3.png", "note_t5f.png", "note_t5f_1.png",
+  "note_t5f_2.png", "note_t5f_3.png", "teeth_1_1.png", "teeth_1_2.png", 
+  "bon_fix_01.png", "bon_fix_02.png", "bon_fix_03.png", "bon_fix_04.png",
+  "bon_fix_05.png", "bon_hex_01.png", "hrn_fix_01.png", "hrn_fix_02.png",
+  "hrn_fix_03.png", "hrn_fix_04.png", "hrn_hex_02.png", "hrn_nun_03.png",
+  "hrn_nun_04.png", "pno_fix_01.png", "pno_fix_02.png", "pno_fix_03.png",
+  "pno_fix_04.png", "pno_hex_01.png", "pno_hex_02.png",   "pno_nun_03.png",
+  "pno_nun_04.png", "tba_fix_01.png", "tba_fix_02.png", "tba_fix_03.png",
+  "tba_fix_04.png", "tba_fix_05.png", "tba_hex_01.png", "tba_nun_03.png",
+  "tba_nun_04.png", "tpt_fix_01.png", "tpt_fix_02.png", "tpt_fix_03.png",
+  "tpt_fix_04.png", "tpt_fix_05.png", "tpt_hex_01.png", "tpt_nun_02_1.png",
+  "tpt_nun_02_2.png", "obf_02.png", "obf_03.png", "obf_04.png",
+  "note_t1_3.png", "note_t2_1.png", "note_t2_2.png", "texts_7.png",
+  "texts_14f_1.png", "texts_14b_1.png", "texts_13f_1.png", "texts_13b_1.png",
+  "texts_12b.png", "texts_12b_1.png", "texts_14b.png", "texts_14b_1.png",
+  "texts_14f_1.png", "texts_15b.png", "texts_15b_1.png", "texts_15f_1.png",
+  "texts_16b.png", "texts_17b.png", "dec_01b.png", "dec_02b.png", 
+  "dec_03b.png", "dec_04b.png", "dec_05b.png", "dec_06b.png",
+  "dec_07b.png", "dec_08b.png", "dec_09b.png", "dec_10b.png",
+  "dec_11b.png", "dec_12b.png", "scan_b1.png", "scan_b2.png",
+  "scan_b3.png", "scan_b4.png", "scan_b5.png", "scan_b6.png",
+  "scan_b7.png", "scan_b8.png", "scan_b9.png", "scan_b10.png",
+  "scan_b11.png", "scan_b12.png"
+};
+
+//I seriously had a lot of fun typing this.
+
+String[] textList = {
+  "obf_1_1.png", "obf_4.png", "obf_08.png", "obf_10.png",
+  "obf_11.png", "obf_12.png", "obf_12_1.png", "obf_13.png",
+  "obf_13b.png", "rum_01.png", "rum_02.png", "rum_03.png",
+  "rum_04.png", "teeth_1.png", "teeth_1_3.png", "texts_2.png",
+  "texts_3.png", "texts_4.png", "hrn_hex_01.png", "hrn_nun_01.png",
+  "hrn_nun_02.png", "hrn_nun_03.png", "hrn_nun_04.png", "pno_fix_01.png",
+  "pno_fix_02.png", "pno_nun_01.png", "pno_nun_02.png", "pno_nun_03.png",
+  "pno_nun_04.png", "prc_fix_01.png", "prc_fix_02.png", "obf_01.png",
+  "prc_fix_03.png", "prc_fix_04.png", "prc_hex_01.png", "prc_nun_01.png",
+  "tba_nun_01.png", "tba_nun_02.png", "tpt_nun_01.png", "tpt_nun_02.png",
+  "tpt_nun_02_1.png", "tpt_nun_02_2.png", "dec_01b.png", "dec_01f.png",
+  "dec_02b.png", "dec_02f.png", "dec_03b.png", "dec_03f.png",
+  "dec_04b.png", "dec_04f.png", "dec_05b.png", "dec_05f.png",
+  "dec_06b.png", "dec_06f.png", "dec_07b.png", "dec_07f.png",
+  "dec_08b.png", "dec_08f.png", "dec_09b.png", "dec_09f.png",
+  "dec_10b.png", "dec_10f.png", "dec_11b.png", "dec_11f.png",
+  "texts_1_1.png", "texts_2_1.png", "texts_3_1.png", "texts_4_1.png",
+  "texts_5.png", "texts_6.png", "texts_8.png", "texts_9.png",
+  "texts_10.png", "texts_11.png", "texts_12_1.png", "texts_12b.png", 
+  "texts_13b.png", "texts_13f.png", "texts_14b_1.png", "texts_14f.png",
+   "texts_15f.png", "texts_16f.png", "texts_17f.png", "dec_01b.png",
+   "dec_01f.png", "dec_02b.png", "dec_02f.png", "dec_03b.png",
+   "dec_03f.png", "dec_04b.png", "dec_04f.png", "dec_05b.png",
+   "dec_05f.png", "dec_06b.png", "dec_06f.png", "dec_07b.png",
+   "dec_07f.png", "dec_08f.png", "dec_09f.png", "dec_10f.png",
+   "dec_11f.png", "dec_12f.png", "scan_f1.png", "scan_f2.png",
+   "scan_f3.png", "scan_f4.png", "scan_f5.png", "scan_f6.png",
+   "scan_f7.png", "scan_f8.png", "scan_f9.png", "scan_f10.png",
+   "scan_f11.png", "scan_f12.png"
+};
+
+
+int totalSourceImages = drawList.length + textList.length;
